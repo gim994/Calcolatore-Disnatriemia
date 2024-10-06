@@ -306,4 +306,9 @@ table input[type="number"] {
     .square-btn {
         width: 100px;
     }
+	    .info-box button {
+        width: 80%; /* Il pulsante sarà largo l'80% della larghezza disponibile */
+        padding: 10px 0; /* Un padding più equilibrato */
+        font-size: 1.2rem; /* Usa rem per una dimensione proporzionata del testo */
+    }
 }
