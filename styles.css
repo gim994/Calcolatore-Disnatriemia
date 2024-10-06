@@ -43,8 +43,9 @@ body {
 
 .info-box button {
   margin-top: 20px;
-  padding: 10px 20px;
-  height: 20px; 	
+  padding: 15px 30px; /* Aumenta il padding per ingrandire il pulsante */
+  height: auto; /* Imposta un'altezza automatica se vuoi che si adatti al contenuto */
+  font-size: 18px; /* Aumenta la dimensione del testo */	
   background-color: #ff0000;
   color: white;
   border: none;
