@@ -1175,7 +1175,7 @@ function aggiornaMlHOutput(Correzioneh, Correzionedie) {
 
     if (!isNaN(Correzioneh) && !isNaN(Correzionedie)) {
         const xoreOption = mlhSelect.querySelector('option[value="xore"]');
-        xoreOption.textContent = `ml/h (${Correzioneh.toFixed(0)} ore o ${Correzionedie.toFixed(1)} giorni)`;
+        xoreOption.textContent = `${Correzioneh.toFixed(0)} ore o ${Correzionedie.toFixed(1)} giorni`;
     } else {
         console.error("Correzioneh o Correzionedie non sono definiti o non sono numerici");
     }
