@@ -13,7 +13,8 @@ doppiaInfusioneBtn.addEventListener('click', function() {
     setActiveInfusioneButton('doppiaInfusioneBtn');
       
     // Nascondi i container della singola infusione
-    numberOutput1Container.style.display = 'none';
+    numberOutput0Container.style.display = 'none';    
+	numberOutput1Container.style.display = 'none';
     numberOutput2Container.style.display = 'none';
     numberOutput3Container.style.display = 'none';
     numberOutput4Container.style.display = 'none';
@@ -28,7 +29,8 @@ singolaInfusioneBtn.addEventListener('click', function() {
     setActiveInfusioneButton('singolaInfusioneBtn');
        
     // Mostra i container della singola infusione
-    numberOutput1Container.style.display = 'flex';
+    numberOutput0Container.style.display = 'flex';
+	numberOutput1Container.style.display = 'flex';
     numberOutput2Container.style.display = 'flex';
     numberOutput3Container.style.display = 'flex';
     numberOutput4Container.style.display = 'flex';
@@ -1004,7 +1006,7 @@ if (doppiainfSelect && infusione1MlH && infusione2MlH && infusione1Ml && infusio
 	
 	    // Aggiorna il testo dell'opzione per "x ore o xx die"
     const xoreOption = mlhSelect.querySelector('option[value="xore"]');
-    xoreOption.textContent = `ml/h (${Correzioneh.toFixed(0)} ore o ${Correzionedie.toFixed(1)} giorni)`;
+    xoreOption.textContent = `${Correzioneh.toFixed(0)} ore o ${Correzionedie.toFixed(1)} giorni`;
 
     // Aggiorna la tabella come già fai nel resto della funzione
     const tableRows = document.querySelectorAll('#Specifichetable tr');
