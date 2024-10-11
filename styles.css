@@ -15,7 +15,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  width: 90%;
+  width: 100%;
   height: 90vh; /* Occupa il 90% dell'altezza dello schermo */
   background-color: #f4f4f4;
   border-bottom: 2px solid #ccc;
