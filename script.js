@@ -591,7 +591,6 @@ function mantenimentoMeql() {
 		"FL": { mEq: 2, glucosio: 6.5 },
 		"FSPVC": { mEq: 0.3, glucosio: 10.2 },		
 		"Gal": { mEq: Galmeql, glucosio: Galgluperc },
-        "vuoto": { mEq: 0, glucosio: 0 }
     };
 
     const soluzione = soluzioni[solutionType] || { mEq: 0, glucosio: 0 };
@@ -683,7 +682,6 @@ function mantenimentoMeql() {
 		"FL": { mEq: 2, glucosio: 6.5 },
 		"FSPVC": { mEq: 0.3, glucosio: 10.2 },			
 		"Gal": { mEq: Galmeql1, glucosio: Galgluperc1 },		
-        "vuoto": { mEq: 0, glucosio: 0 }
     };
 	
   const infusione2 = {
@@ -711,7 +709,6 @@ function mantenimentoMeql() {
 		"FL": { mEq: 2, glucosio: 6.5 },
 		"FSPVC": { mEq: 0.3, glucosio: 10.2 },			
 		"Gal": { mEq: Galmeql2, glucosio: Galgluperc2 },		
-        "vuoto": { mEq: 0, glucosio: 0 }
     };	
 	
 	    // Estrazione dei dati dalle selezioni
